@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.apsp.SemActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        android:columnCount="2"
+        android:rowCount="5">
+
+
+        <Button
+            android:id="@+id/pt"
+            android:layout_columnWeight="1"
+            android:layout_margin="6sp"
+            android:text="pt"
+            android:layout_height="200sp" />
+        <Button
+            android:id="@+id/mid"
+            android:layout_columnWeight="1"
+            android:layout_margin="6sp"
+            android:text="mid"
+            android:layout_height="200sp" />
+        <Button
+            android:id="@+id/end"
+            android:layout_columnWeight="1"
+            android:layout_margin="6sp"
+            android:text="END"
+            android:layout_height="200sp" />
+
+    </GridLayout>
+
+
+
+</ScrollView>
