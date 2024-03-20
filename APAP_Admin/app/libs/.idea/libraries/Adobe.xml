@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Adobe">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Adobe.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
