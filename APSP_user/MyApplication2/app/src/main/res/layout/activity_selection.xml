@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.app.apsp.SelectionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/idTVSem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Semester"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idSpinnerSemester"
+            android:layout_width="234dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#050505"
+            android:ems="10" />
+
+
+        <TextView
+            android:id="@+id/idTVDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Department"
+
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idSpinnerDepartment"
+            android:layout_width="234dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#121111"
+            android:ems="10" />
+
+
+        <Button
+            android:id="@+id/idBTNUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:backgroundTint="#121111"
+            android:text="APPLY" />
+
+
+    </LinearLayout>
+</ScrollView>
