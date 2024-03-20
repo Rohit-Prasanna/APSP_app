@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APAP_Admin</string>
+    <string name="sem_space_number"><![CDATA[Sem<space><number>]]></string>
+    <string name="incaps_like_cse"><![CDATA[<inCAPS>Like:CSE]]></string>
+    <string name="year_year_like_2020_2021"><![CDATA[<year>-<year>]]></string>
+    <string name="course_code_space_coursename"><![CDATA[(course code)<space>(examtype)<space>\n(coursename)]]></string>
+</resources>
