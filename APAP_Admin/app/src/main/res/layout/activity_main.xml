@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.app.apsp_admin.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/idTVSem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Semester"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idSpinnerSemester"
+            android:layout_width="234dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#050505"
+            android:ems="10" />
+
+
+        <TextView
+            android:id="@+id/idTVDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Department"
+
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/idSpinnerDepartment"
+            android:layout_width="234dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#121111"
+            android:ems="10" />
+
+
+        <TextView
+            android:id="@+id/idTVYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Year"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/idETVYear"
+            android:layout_width="262dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/year_year_like_2020_2021"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnDateRangePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Select Year Range" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/idBTNCam"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginHorizontal="10dp"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:backgroundTint="#1A74BC"-->
+<!--                android:visibility="visible"-->
+<!--                app:srcCompat="@android:drawable/ic_menu_camera"-->
+<!--                app:tint="#000000" />-->
+
+
+            <ImageButton
+                android:id="@+id/idBTNPdfUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#1A74BC"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_menu_upload" />
+
+            <TextView
+                android:id="@+id/idTVOrigName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/pdf"
+                android:text=""
+                android:layout_weight="6"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/idBTNClosePdf"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:visibility="gone"
+                app:srcCompat="@android:drawable/btn_dialog"
+                app:tint="#130D0D" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/idTVFilename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="File name :"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/idETVFilename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="@string/course_code_space_coursename"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/idBTNUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:backgroundTint="#1A74BC"
+            android:text="UPLOAD" />
+
+
+    </LinearLayout>
+</ScrollView>
